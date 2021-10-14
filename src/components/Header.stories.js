@@ -1,18 +1,18 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import Button from './Button'
+import Header from './Header'
 
 export default {
-  title: 'Button',
-  component: Button
+  title: 'Header',
+  component: Header
 };
 
-export const Text = () => <Button>Hello Button</Button>
+export const Text = () => <Header onClick={action('clicked')}>Hello Header</Header>
 
 export const Emoji = () => (
-  <Button onClick={action('clicked')}>
+  <Header onClick={action('clicked')}>
     <span role='img' aria-label='wow so cool'>
       🤌 😎 🤌  
     </span>
-  </Button>
+  </Header>
 )
