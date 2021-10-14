@@ -1,3 +1,12 @@
+ /* Button CSS */
+ .button {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  padding: .8em, 1em;
+  border-radius: .2rem;
+}
+
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
  * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -45,7 +54,7 @@
  form,
  label,
  legend,
- button,
+ /* button, */
  table,
  caption,
  tbody,
